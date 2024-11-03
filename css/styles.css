@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    background-color: #59F0DB;
+    margin: 0;
+    padding: 20px; /* Add padding to move content in from the edges */
+}
+
+h1 {
+    font-family: "Joan", serif;
+    color: #686270;
+    font-size: 40pt;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Joan", serif;
+    color: #686270;
+    font-size: 24pt;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: "Joan", serif;
+    color: #686270;
+    font-size: 22pt;
+    font-weight: 900;
+}
+
+p {
+    font-family: "Cabin", sans-serif;
+    color: #9B5E49;
+    font-size: 16pt;
+    font-weight: 900;
+}
+
+ul {
+    font-family: "Cabin", sans-serif;
+    color: #9B5E49;
+    font-size: 16pt;
+    font-weight: 900;
+}
+
+a {
+    font-family: "Cabin", sans-serif;
+    color: #686270;
+    font-size: 16pt;
+    font-weight: 900;
+    margin-left: 20px; /* Move <a> elements in from the side */
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Center the images */
+    border: 5px solid #686270; /* Unique border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Set a larger fixed width */
+    height: 400px; /* Set a larger fixed height */
+    object-fit: contain; /* Ensure the entire image is visible */
+}
+
+/* Button Styles */
+.button {
+    background-color: #43B5A6;
+    font-family: "Cabin", sans-serif;
+    color: #686270;
+    font-size: 16pt;
+    font-weight: 900;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #4ED2C1;
+}
+
+nav {
+    background-color: #38988B;
+    width: 100%; /* Make the nav fill the entire width */
+    height: 60px;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+
+footer {
+    font-family: "Joan", serif;
+    color: #686270;
+    font-size: 14pt;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+audio {
+    width: 100%; /* Make the audio player responsive */
+    max-width: 600px; /* Set a maximum width for the audio player */
+    align-content: center; 
+    
+}
+
+/* Audio Container Styles */
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes the full height of the body */
+    
+}
+
+
